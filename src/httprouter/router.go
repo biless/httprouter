@@ -14,7 +14,7 @@ func New() *Router {
 // 设置路径
 func (r *Router) Path(path string) *Method {
 	m := Method{}
-	return m
+	return &m
 }
 
 // 设置前缀
